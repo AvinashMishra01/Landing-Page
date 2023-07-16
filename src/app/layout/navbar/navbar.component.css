@@ -1,0 +1,25 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+color: var(--secondary-color);
+font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active-link {
+color: var(--primary-color);
+font-weight: bold;
+text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+.container-fluid{
+  position: relative;
+}
+#navbarNav{
+  position: absolute;
+  top: 50px;
+  background-color: #a3def2;
+  z-index: 500;
+  width: 100%;
+
+}
+
+}
